@@ -182,7 +182,7 @@ const ContactPage = () => {
 
               <div className="bg-white p-8 rounded-2xl shadow-md">
                 <h2 className="text-2xl font-bold mb-6">
-                  Contact Our SEO Experts
+                  Contact Us
                 </h2>
 
                 <address className="not-italic space-y-6">
@@ -198,10 +198,10 @@ const ContactPage = () => {
                       </p>
 
                       <a
-                        href="mailto:hello@nexara.studio"
+                        href="mailto:nexara0605@gmail.com"
                         className="font-semibold hover:text-[#C5A059]"
                       >
-                        hello@nexara.studio
+                        nexara0605@gmail.com
                       </a>
                     </div>
                   </div>
@@ -330,8 +330,8 @@ const ContactPage = () => {
                         type="button"
                         onClick={() => toggleService(service)}
                         className={`px-5 py-3 rounded-full border transition-all ${selectedServices.includes(service)
-                            ? 'bg-[#1A1A1A] text-white'
-                            : 'bg-white hover:border-[#C5A059]'
+                          ? 'bg-[#1A1A1A] text-white'
+                          : 'bg-white hover:border-[#C5A059]'
                           }`}
                       >
                         {service}
@@ -360,8 +360,8 @@ const ContactPage = () => {
                   type="submit"
                   disabled={isSubmitting || isSubmitted}
                   className={`w-full flex items-center justify-center gap-3 p-5 rounded-xl font-bold text-lg transition-all ${isSubmitted
-                      ? 'bg-green-600 text-white'
-                      : 'bg-[#C5A059] hover:bg-[#1A1A1A] hover:text-white'
+                    ? 'bg-green-600 text-white'
+                    : 'bg-[#C5A059] hover:bg-[#1A1A1A] hover:text-white'
                     }`}
                 >
                   {isSubmitting ? (
