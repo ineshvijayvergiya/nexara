@@ -349,25 +349,25 @@ const TEAM = [
     name: 'Adarsh Dubey',
     role: 'Founder & CEO',
     desc: 'MERN stack expert engineering scalable server architectures and seamless client-side interfaces.',
-    image: 'adarsh.jpeg',
+    image: '/Adarsh.jpeg',
   },
   {
     name: 'Inesh Vijay',
     role: 'Lead Designer & Developer',
     desc: 'Crafting intuitive, pixel-perfect user experiences that bridge human psychology and digital interaction.',
-    image: 'inesh.png',
+    image: '/inesh.jpeg',
   },
   {
     name: 'Amit Dhakane',
     role: 'SEO Specialist & Growth Hacker',
     desc: 'Driving explosive organic traffic growth and ensuring our clients dominate the top spots on search engines.',
-    image: 'amit.jpeg',
+    image: '/amit.jpeg',
   },
   {
     name: 'Anshu Jha',
     role: 'Content & Growth Manager',
     desc: 'Creating hyper-targeted, data-driven ad campaigns that turn passive audiences into loyal, high-paying clients.',
-    image: 'Anshu.jpg',
+    image: '/Anshu.jpg',
   },
 ];
 
@@ -755,7 +755,7 @@ const Home = () => {
                       height={500}
                       loading="lazy"
                       decoding="async"
-                      className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
+                      className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
                     />
                   </div>
                   <div className="p-5 md:p-6 flex flex-col flex-grow bg-white">
